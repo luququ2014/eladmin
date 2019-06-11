@@ -101,7 +101,7 @@
     <factorypathentry kind="VARJAR" id="M2_REPO/com/alibaba/druid/1.1.10/druid-1.1.10.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/projectlombok/lombok/1.18.2/lombok-1.18.2.jar" enabled="true" runInBatchMode="false"/>
-    <factorypathentry kind="VARJAR" id="M2_REPO/cn/hutool/hutool-all/4.4.4/hutool-all-4.4.4.jar" enabled="true" runInBatchMode="false"/>
+    <factorypathentry kind="VARJAR" id="M2_REPO/cn/hutool/hutool-all/4.5.11/hutool-all-4.5.11.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/com/alibaba/fastjson/1.2.54/fastjson-1.2.54.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/mapstruct/mapstruct-jdk8/1.2.0.Final/mapstruct-jdk8-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>
     <factorypathentry kind="VARJAR" id="M2_REPO/org/mapstruct/mapstruct-processor/1.2.0.Final/mapstruct-processor-1.2.0.Final.jar" enabled="true" runInBatchMode="false"/>

@@ -12,6 +12,9 @@ File Encoding         : 65001
 
 Date: 2019-06-05 11:13:41
 */
+create database eladmin default character set utf8mb4 collate utf8mb4_unicode_ci;
+
+use eladmin;
 
 SET FOREIGN_KEY_CHECKS=0;
 
