@@ -2,7 +2,6 @@ package me.zhengjie.utils;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.*;
 import lombok.extern.slf4j.Slf4j;
 import me.zhengjie.annotation.Query;
 import javax.persistence.criteria.*;
@@ -45,7 +44,7 @@ public class QueryHelp {
                         continue;
                     }
                     Join join = null;
-                    if (StrUtil.isNotEmpty(joinName)) {
+                    if (ObjectUtil.isNotEmpty(joinName)) {
                         switch (q.join()) {
                             case LEFT:
                                 join = root.join(joinName, JoinType.LEFT);
@@ -99,7 +98,7 @@ public class QueryHelp {
     }
 
     private static <T, R> Expression<T> getExpression(String attributeName, Join join, Root<R> root) {
-        if (ObjectUtil.isNotNull(join)) {
+        if (ObjectUtil.isNotEmpty(join)) {
             return join.get(attributeName);
         } else return root.get(attributeName);
     }
