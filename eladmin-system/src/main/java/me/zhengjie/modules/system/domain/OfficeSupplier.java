@@ -45,5 +45,10 @@ public class OfficeSupplier implements Serializable {
     @Column(nullable = false)
     @NotBlank
     private String units;
+    
+    @Column(nullable = false)
+    @NotNull
+    private Long inventory;
+
     public interface Update{}
 }

@@ -14,10 +14,10 @@ import java.io.Serializable;
  * @date 2018-11-22
  */
 @Entity
-@Table(name = "officeSupplierType")
+@Table(name = "preplot")
 @Getter
 @Setter
-public class OfficeSupplierType implements Serializable {
+public class Preplot implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @NotNull(groups = {Update.class})
